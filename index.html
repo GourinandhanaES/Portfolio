@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./website1.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Nanum+Gothic&family=Solway:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- animate css cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos animation css cdn link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <!-- navbar -->
+        <nav>
+            <!-- logo -->
+            <img width="200px" height="150px" class="logo" src="https://t4.ftcdn.net/jpg/04/25/98/05/360_F_425980569_jIw2i2tcW4dS2TrAzl8CewXeBJ6Og71G.jpg" alt="logo">
+            <!-- links -->
+            <ul>
+                <li class="listItems"><a class="links" href="#home">HOME</a></li>
+                <li class="listItems"><a class="links" href="#about">ABOUT</a></li>
+                <li class="listItems"><a class="links" href="#skill">SKILLS</a></li>
+                <li class="listItems"><a class="links" href="#contact">CONTACT</a></li>
+            </ul>
+            <!-- pseudo class: used to define a spcl state of an element syntax= selector:pseudo class-->
+             <!-- animation: animatestyle -->
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="homeContent">
+                <h1 class="animate__animated animate__backInLeft" id="username">I'm Gourinandhana <span id="lname"> E S</span></h1>
+                <p id="userDetails">This is my official portfolio website to describe all <br>
+                Details and work experience in Web Development</p>
+                <a id="download" href="">DOWNLOAD CV</a>
+            </div>
+            <div class="homeImages">
+                <!-- shape -->
+                 <img src="./Images/IMG-20240731-WA0013-removebg-preview.png" alt="shape" id="shape" class="group1">
+                 <!-- girl -->
+                  <img src="./Images/IMG-20240731-WA0012-removebg-preview.png" alt="girl" id="girl" class="group1">
+            </div>
+        </section>
+         <!-- about -->
+        <section id="about">
+            <div class="sectionHead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <!-- grid: used to display elements in row and column, where user can fix the column width
+                     grid container: display as grid , grid-template:column / row : used to set width
+                     grid items:  -->
+                <div data-aos="fade-up-right" class="aboutImage">
+                    <img class="img1" src="https://as2.ftcdn.net/v2/jpg/08/06/02/41/1000_F_806024161_0u1cCGrh4yOSe8vjdvnHHC5C5XpoVREh.jpg" alt="about me">
+                </div>
+                <div class="aboutContent">
+                    <p>Hello! I'm Gourinandhana E S, a passionate Web developer with a Btech degree in Computer Science and Engineering from KTU. I thrive on creating innovative solutions and continuously strive to enhance my skills and knowledge in the tech world. My journey in technology has been driven by a deep curiosity and a love for problem-solving. I enjoy working on projects that challenge me to think creatively and push the boundaries of what’s possible. In my free time, I explore new technologies and stay updated with the latest industry trends.</p>
+                <div class="informations">
+                    <div class="infoBox">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Gourinandhana E S</span>
+                    </div>
+                    <div class="infoBox">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>9048962874</span>
+                    </div>
+                    <div class="infoBox">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>gourinandhana028@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skilss -->
+        <section id="skill">
+                <div class="sectionHead">
+                    <h2 class="mainHead">Skills</h2>
+                    <span class="subHead">My Skills</span>
+                </div>
+                <div data-aos="zoom-in" class="skillContent">
+                    <div class="progressBars">
+                        <!-- html bars -->
+                         <div class="bars">
+                            <h3 class="barHead">HTML</h3>
+                            <span class="barPercent"><b>92%</b></span>
+                            <div class="baseBar"></div>
+                            <div class="baseBar htmlBar"></div>
+                         </div>
+                         <!-- css bars -->
+                         <div class="bars">
+                            <h3 class="barHead">CSS</h3>
+                            <span class="barPercent"><b>90%</b></span>
+                            <div class="baseBar"></div>
+                            <div class="baseBar cssBar"></div>
+                         </div>
+                         <!-- js bars -->
+                         <div class="bars">
+                            <h3 class="barHead">JS</h3>
+                            <span class="barPercent"><b>86%</b></span>
+                            <div class="baseBar"></div>
+                            <div class="baseBar jsBar"></div>
+                         </div>
+                         <!-- react bars -->
+                         <div class="bars">
+                            <h3 class="barHead">REACT</h3>
+                            <span class="barPercent"><b>83%</b></span>
+                            <div class="baseBar"></div>
+                            <div class="baseBar reactBar"></div>
+                         </div>
+                    </div>
+                    <div data-aos="flip-right" class="skillImage">
+                        <img class="mySkill" src="https://static.vecteezy.com/system/resources/previews/023/579/761/original/programming-and-engineering-development-tiny-girl-programmer-or-developer-create-code-programming-language-php-html-css-js-modern-flat-cartoon-style-illustration-on-white-background-vector.jpg" alt="skill">
+                    </div>
+                </div>
+        </section><br><br><br><br>
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionHead">
+                <h2 class="mainHead">Contact</h2>
+                <span class="subHead">My Contacts</span>
+            </div>
+            <!-- icons -->
+             <div class="iconCollections">
+                <!-- linkedin -->
+                 <div class="icon">
+                    <a href="https://www.linkedin.com/in/gourinandhana-e-s-353991251/" target="blank"><i class="fa-brands fa-linkedin-in brands"></i></a>
+                 </div>
+                 <!-- github -->
+                 <div class="icon">
+                    <a href="https://www.linkedin.com/in/gourinandhana-e-s-353991251/" target="blank"><i class="fa-brands fa-github brands"></i></a>
+                 </div>
+                 <!-- twitter -->
+                 <div class="icon">
+                    <a href="https://www.twitter.com/" target="blank"><i class="fa-brands fa-twitter brands"></i></a>
+                 </div>
+                 <!-- whatsapp -->
+                 <div class="icon">
+                    <a href="https://www.whatsapp.com/" target="blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                 </div>
+                 <!-- facebook -->
+                 <div class="icon">
+                    <a href="https://www.facebook.com/" target="blank"><i class="fa-brands fa-facebook brands"></i></a>
+                 </div>
+                 <!-- instagram -->
+                 <div class="icon">
+                    <a href="https://www.instagram.com/" target="blank"><i class="fa-brands fa-instagram brands"></i></a>
+                 </div>
+             </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <p id="copyright"> &copy; My Portfolio Website - July 2024, All Rights Reserved to &reg; Gourinandhana E S</p>
+            <div class="icon upArrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+             </div>
+        </footer>
+    </div>
+</body>
+<!-- aos animation cdn script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>
